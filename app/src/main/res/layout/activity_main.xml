@@ -10,15 +10,16 @@
     android:padding="20dp"
     tools:context=".MainActivity">
     <EditText
-        android:id="@+id/edt_information"
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="information"/>
     <Button
-        android:id="@+id/btn_pdf"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Export PDF"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
